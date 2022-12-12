@@ -3,7 +3,17 @@ entries:
   uptrace:
   - apiVersion: v2
     appVersion: 1.2.4
-    created: "2022-12-02T14:48:03.723286936+02:00"
+    created: "2022-12-12T10:17:21.188231516+02:00"
+    description: A Helm chart for Kubernetes
+    digest: dc929573a06bd9ab3581344f0cfab0fa8735cf5dca3dfe20587ece6b12421fa4
+    name: uptrace
+    type: application
+    urls:
+    - https://charts.uptrace.dev/uptrace-1.2.5.tgz
+    version: 1.2.5
+  - apiVersion: v2
+    appVersion: 1.2.4
+    created: "2022-12-12T10:17:21.185168522+02:00"
     description: A Helm chart for Kubernetes
     digest: 1c054a9f30ce604f64569c1c5eff2a0061f229f9acde97f672559ca56487285f
     name: uptrace
@@ -13,7 +23,7 @@ entries:
     version: 1.2.4
   - apiVersion: v2
     appVersion: 0.2.16
-    created: "2022-12-02T14:48:03.71856087+02:00"
+    created: "2022-12-12T10:17:21.176296107+02:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -26,4 +36,4 @@ entries:
     urls:
     - https://charts.uptrace.dev/uptrace-0.2.16.tgz
     version: 0.2.16
-generated: "2022-12-02T14:48:03.713588428+02:00"
+generated: "2022-12-12T10:17:21.167340605+02:00"
