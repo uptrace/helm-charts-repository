@@ -1,9 +1,27 @@
 apiVersion: v1
 entries:
   uptrace:
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/links: |
+        - name: Uptrace Open Source APM
+          url: https://uptrace.dev/get/open-source-apm.html
+      artifacthub.io/screenshots: |
+        - title: Uptrace screenshot
+          url: https://uptrace.dev/get/uptrace/home.png
+    apiVersion: v2
+    appVersion: 1.5.3
+    created: "2023-08-08T16:18:17.073410126+03:00"
+    description: Uptrace Helm chart for Kubernetes
+    digest: b130495bed4cd8bf582370c38f968625d196fbcd9904a440136d76f1635ff918
+    name: uptrace
+    type: application
+    urls:
+    - https://charts.uptrace.dev/uptrace-1.5.3.tgz
+    version: 1.5.3
   - apiVersion: v2
     appVersion: 1.5.0
-    created: "2023-06-16T16:20:53.922540036+03:00"
+    created: "2023-08-08T16:18:17.07080195+03:00"
     description: Uptrace Helm chart for Kubernetes
     digest: f29322ef34f0c874ded2f161ba30f758223c294d0d02f8987efbab1b235b5c2c
     name: uptrace
@@ -13,7 +31,7 @@ entries:
     version: 1.5.0
   - apiVersion: v2
     appVersion: 1.4.8
-    created: "2023-06-16T16:20:53.920568534+03:00"
+    created: "2023-08-08T16:18:17.067856428+03:00"
     description: Uptrace Helm chart for Kubernetes
     digest: da060d508e8352671664050b10c094f6f6a6fac11f8a70e7dea31806ff64d6dc
     name: uptrace
@@ -23,7 +41,7 @@ entries:
     version: 1.4.8
   - apiVersion: v2
     appVersion: 1.4.2
-    created: "2023-06-16T16:20:53.918567256+03:00"
+    created: "2023-08-08T16:18:17.066919829+03:00"
     description: Uptrace Helm chart for Kubernetes
     digest: 9564789764073a4676c506fe35581c4e1d00cefaf729cfdba2948001144cf2f5
     name: uptrace
@@ -33,7 +51,7 @@ entries:
     version: 1.4.2
   - apiVersion: v2
     appVersion: 1.4.0
-    created: "2023-06-16T16:20:53.916566378+03:00"
+    created: "2023-08-08T16:18:17.066011223+03:00"
     description: Uptrace Helm chart for Kubernetes
     digest: 1504d8bad589ef9c3acb581449cb6d6e662baacae26ea914a0ca7e8cf2f34094
     name: uptrace
@@ -43,7 +61,7 @@ entries:
     version: 1.4.0
   - apiVersion: v2
     appVersion: 1.3.1
-    created: "2023-06-16T16:20:53.914566573+03:00"
+    created: "2023-08-08T16:18:17.065119629+03:00"
     description: A Helm chart for Kubernetes
     digest: 4b6aef2bd72343794dfd2322cc70b087b7f3bb546ad833123f2c6f45ee4101eb
     name: uptrace
@@ -53,7 +71,7 @@ entries:
     version: 1.3.1
   - apiVersion: v2
     appVersion: 1.2.4
-    created: "2023-06-16T16:20:53.912356841+03:00"
+    created: "2023-08-08T16:18:17.064112477+03:00"
     description: A Helm chart for Kubernetes
     digest: dc929573a06bd9ab3581344f0cfab0fa8735cf5dca3dfe20587ece6b12421fa4
     name: uptrace
@@ -63,7 +81,7 @@ entries:
     version: 1.2.5
   - apiVersion: v2
     appVersion: 1.2.4
-    created: "2023-06-16T16:20:53.909980294+03:00"
+    created: "2023-08-08T16:18:17.062946014+03:00"
     description: A Helm chart for Kubernetes
     digest: 1c054a9f30ce604f64569c1c5eff2a0061f229f9acde97f672559ca56487285f
     name: uptrace
@@ -73,7 +91,7 @@ entries:
     version: 1.2.4
   - apiVersion: v2
     appVersion: 0.2.16
-    created: "2023-06-16T16:20:53.902390173+03:00"
+    created: "2023-08-08T16:18:17.059314655+03:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -86,4 +104,4 @@ entries:
     urls:
     - https://charts.uptrace.dev/uptrace-0.2.16.tgz
     version: 0.2.16
-generated: "2023-06-16T16:20:53.892264086+03:00"
+generated: "2023-08-08T16:18:17.054660756+03:00"
