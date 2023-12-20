@@ -2,7 +2,15 @@
 
 ## Quickstart
 
-Add Uptrace [repo](https://github.com/uptrace/helm-charts-repository):
+Install [cert-manager](https://cert-manager.io/docs/installation/) and
+[OpenTelemetry Operator](https://github.com/open-telemetry/opentelemetry-operator):
+
+```shell
+kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.13.3/cert-manager.yaml
+kubectl apply -f https://github.com/open-telemetry/opentelemetry-operator/releases/latest/download/opentelemetry-operator.yaml
+```
+
+Add Uptrace [Helm repo](https://github.com/uptrace/helm-charts-repository):
 
 ```shell
 helm repo add uptrace https://charts.uptrace.dev
@@ -20,6 +28,15 @@ View available pods and logs:
 ```shell
 kubectl get pods -n uptrace
 kubectl logs my-uptrace-0 -n uptrace
+```
+
+The Uptrace UI is served via the Ingress on [http://uptrace.local](http://uptrace.local):
+
+```shell
+kubectl get -n uptrace ingress
+
+NAME         CLASS   HOSTS           ADDRESS        PORTS   AGE
+my-uptrace   nginx   uptrace.local   192.168.49.2   80      73s
 ```
 
 ## Before you begin
